@@ -1,0 +1,69 @@
+.styled__NewMemberShipContainer{
+
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.styled__NewMemberShipContainerInner{
+flex: 1 1 0%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0px auto;
+    padding: 20px 16px;
+    box-sizing: border-box;    
+}
+
+
+.styled__BgWrap{
+display: block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 50%;
+        height: 100%;
+        background-image: url(https://assets.tumblbug.com/static_assets/login/bg_login_kakao.jpg);
+        background-size: cover;
+        background-position: center center;
+}
+
+.styled__LoginWrap{
+    flex: 1 1 0px;
+
+}
+
+.styled__LoginWrapInner{
+            margin: 0px;
+        max-width: 414px;
+
+
+}
+
+.styled__Title{
+    text-align: center;
+        margin-bottom: 50px;
+
+}
+.SignIn__KakaoLoginSubTitle{
+            font-size: 20px;
+                margin: 0px 0px 4px;
+    font-weight: 300;
+    color: rgb(13, 13, 13);
+
+
+}
+
+.styled__KakaoLoginTitle{
+            line-height: 36px;
+        font-size: 24px;
+            font-weight: 700;
+    color: rgb(13, 13, 13);
+
+}
