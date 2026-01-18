@@ -29,9 +29,8 @@ display: block;
         right: 0px;
         width: 50%;
         height: 100%;
-        /* background-image: url(https://assets.tumblbug.com/static_assets/login/bg_login_kakao.jpg); */
-                /* background-image: url('이미지경로/햇살장터로그인이미지.jpg'); */
-                background-image: url('../images/햇살장터\ 로그인\ 이미지.png');
+
+        background-image: url('../images/햇살장터\ 로그인\ 이미지.png');
         background-size: cover;
         background-position: center center;
 }

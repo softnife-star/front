@@ -1,0 +1,319 @@
+
+.tbb-only-ff{
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 100%;
+    height: 100%;
+    }
+
+
+a, div {
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+
+*, :after, :before {
+    border: 0 solid #e5e7eb;
+    box-sizing: border-box;
+}
+
+
+
+
+.ContentOnlyLayout__Wrapper-sc{
+    background-color: white;
+    height: 100%;
+
+}
+
+.styled__NewMemberShipContainer-sc{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.FindAccount__Header-sc{
+            height: 62px;
+          display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+  
+    border-bottom: 1px solid rgb(248, 248, 248);
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 4px;  
+
+}
+
+.FindAccount__LogoButton-sc{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    padding: 0px;
+    cursor: pointer;
+
+            width: 100px;
+
+}
+
+.FindAccount__LogoButton-sc > svg {
+    height: auto;
+}
+
+.button{
+-webkit-appearance: button;
+
+}
+
+button, select {
+        text-transform: none;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font-family: inherit;
+    font-feature-settings: inherit;
+    font-size: 100%;
+    font-variation-settings: inherit;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    margin: 0;}
+
+    /* ----------------------------------------- */
+
+.FindAccount__ContentWrap-sc{
+        max-width: 400px;
+        border-radius: 8px;
+        margin: 60px auto;
+        padding: 32px;
+        border: 1px solid rgb(228, 228, 228);
+
+            display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+
+    }
+
+    .FindAccount__Title-sc{
+        font-size: 24px;
+    font-weight: bold;
+    line-height: 120%;
+    text-align: left;
+
+}
+
+blockquote, dd, dl, fieldset, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+    margin: 0;
+}
+
+.FindAccount__FormSection-sc{
+        width: 100%;
+
+} 
+
+.FindAccount__Description-sc{
+        margin-top: 24px;
+    margin-bottom: 12px;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 150%;
+    color: rgb(158, 158, 158);
+    text-align: left;
+
+
+
+}
+
+.PhoneInputSection__PhoneInputRow-sc{
+    display: flex;
+    gap: 4px;
+    align-items: flex-start;
+    width: 100%;
+
+
+
+}
+
+.PhoneInputSection__PhoneInputWrapper-sc{
+    flex: 1 1 0%;
+    min-width: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+
+.PhoneInputSection__Label-sc{
+        font-size: 14px;
+    font-weight: normal;
+    line-height: 120%;
+    color: rgb(84, 84, 84);
+    margin-bottom: 4px;
+
+}
+
+.VerificationInputSection__VerificationInputRow{
+        display: flex;
+    width: 100%;
+    margin-top: 8px;
+
+
+}
+
+.VerificationInputSection__Notice{
+        font-size: 12px;
+    font-weight: normal;
+    line-height: 120%;
+    color: rgb(84, 84, 84);
+    margin-top: 4px;
+}
+
+.VerificationInputSection__RetryButton{
+        font-size: 12px;
+    font-weight: normal;
+    line-height: 120%;
+    color: rgb(31, 98, 215);
+    text-decoration: underline;
+    background: none;
+    border: none;
+    padding: 0px;
+    cursor: pointer;
+}
+
+
+.ui-gap-1 {
+    gap: .25rem;
+}
+
+
+.ui-flex-col {
+    flex-direction: column;
+}
+
+.ui-flex {
+    display: flex;
+}
+
+.ui-relative {
+    position: relative;
+}
+
+/* 인증번호 전송 변화 event */
+/* .ui-text-gray-500 {
+    color: rgb(84 84 84 / var(--tw-text-opacity, 1));
+}    */
+
+.ui-py-\[11\.5px\] {
+    padding-bottom: 11.5px;
+    padding-top: 11.5px;
+}
+
+.ui-px-3 {
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
+
+.ui-bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+/* .ui-border-gray-200 {
+    --tw-border-opacity: 1;
+    border-color: rgb(228 228 228 / var(--tw-border-opacity, 1));
+} */
+
+.ui-border {
+    border-width: 1px;
+}
+
+.ui-rounded-md {
+    border-radius: .375rem;
+}
+
+.ui-h- {
+    height: 44px;
+}
+
+.ui-body2-regular-medium {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.dRnnfO {
+    flex-shrink: 0;
+    height: 46px;
+    min-width: 120px;
+    align-self: flex-end;
+}
+
+
+.ui-border {
+    border-width: 1px;
+}
+
+.ui-rounded-lg {
+    border-radius: .5rem;
+}
+
+.ui-justify-center {
+    justify-content: center;
+}
+
+.ui-items-center {
+    align-items: center;
+}
+
+.ui-body2-bold-small {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+/* 여기 */
+.disabled\:ui-text-gray-300:disabled {
+    --tw-text-opacity: 1;
+    color: rgb(158 158 158 / var(--tw-text-opacity, 1));
+}
+
+.disabled\:ui-bg-gray-200:disabled {
+    --tw-bg-opacity: 1;
+    background-color: rgb(228 228 228 / var(--tw-bg-opacity, 1));
+}
+
+.dLOfim {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.ui-py-\[14\.5px\] {
+    padding-bottom: 14.5px;
+    padding-top: 14.5px;
+}
+
+.ui-px-\[20px\] {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ui-body1-bold-small {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%;
+}
